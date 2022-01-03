@@ -28,3 +28,5 @@
 4) 刪除分支: ```git branch -d <branch>``` or ```git branch -D <branch>```
     ```-d``` 是基本用法，但若分支尚未合併，就不給刪除；```-D```是強制用法。
 5) 切換分知: ```git checkout <branch>```
+6) 合併分支: 
+    - 把B併到A上面: 先切換到A分支，再併 >> ```git checkout <A>``` + ```git merge <B>```
