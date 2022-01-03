@@ -30,3 +30,4 @@
 5) 切換分知: ```git checkout <branch>```
 6) 合併分支: 
     - 把B併到A上面: 先切換到A分支，再併 >> ```git checkout <A>``` + ```git merge <B>```
+    - 把分支併到主知: 先切換到主支，再併 >> ```git checkout <main>``` + ```git merge <branch to merge>```
