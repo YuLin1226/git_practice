@@ -31,3 +31,5 @@
 6) 合併分支: 
     - 把B併到A上面: 先切換到A分支，再併 >> ```git checkout <A>``` + ```git merge <B>```
     - 把分支併到主知: 先切換到主支，再併 >> ```git checkout <main>``` + ```git merge <branch to merge>```
+    - 使用參數 ```--no-ff``` 會多一個紀錄合併的 commit，使用方法 >> ```git merge --no-ff -m "commit contents" <branch to merge>```
+7) 刪除遠端分知: ```git push origin :<branch to delete>```
