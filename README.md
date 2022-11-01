@@ -33,3 +33,10 @@
     - 把分支併到主知: 先切換到主支，再併 >> ```git checkout <main>``` + ```git merge <branch to merge>```
     - 使用參數 ```--no-ff``` 會多一個紀錄合併的 commit，使用方法 >> ```git merge --no-ff -m "commit contents" <branch to merge>```
 7) 刪除遠端分知: ```git push origin :<branch to delete>```
+
+### 標籤
+1) 增加標籤：```git tag -a <tagName> <commit>```
+    範例：`git tag -a v1.2 9fceb02`
+2) 推到遠端：```git push origin <tagName>```
+3) 顯示標籤：```git tag```
+4) 顯示特定標籤：```git show <tagName>```
