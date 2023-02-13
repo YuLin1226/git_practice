@@ -36,7 +36,8 @@
 
 ### 標籤
 1) 增加標籤：```git tag -a <tagName> <commit>```
-    範例：`git tag -a v1.2 9fceb02`
+    - 範例：`git tag -a v1.2 9fceb02`
+    - 範例：`git tag -a "THIS　IS YOUR TAG NAME" -m "THIS IS YOUR MSG IN YOUR TAG" 49564a6`
 2) 推到遠端：```git push origin <tagName>```
 3) 顯示標籤：```git tag```
 4) 顯示特定標籤：```git show <tagName>```
